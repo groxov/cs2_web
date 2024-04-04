@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="none"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header>
+        <div class="content">
+                <div class="left">
+                    <div class="logo"> <img src="logo_cs_sm_blk 1.png" class="png" alt=""></div>
+                    <div class="steam">
+                        <div class="lala">
+                            <img src="div.microheader_SteamLogo_3qSrv.png" class="steam-logo" alt="">
+                            <p class="text-steam">PLAY FOR FREE</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="logo-social">
+            <img src="Group 107.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="block-1">
+                <div class="newera">
+                    <p class="pervi">НОВАЯ ЭРА COUNTER-STRIKE НАЧАЛАСЬ!</p>
+                    <p class="vtoroi">Counter-Strike 2 — это крупнейший технологический скачок в истории серии, обеспечивающий игру<br> новыми возможностями и контентом на годы вперёд.</p>
+                    <p class="tri">Counter-Strike 2 — это бесплатное улучшение CS:GO. Так что готовьте снаряжение, оттачивайте своё мастерство и готовьтесь к грядущим переменам!</p>
+                </div>
+            </div>
+        </section>
+        <section class="block2">
+             
+            <div class="koko">
+                <div class="content">
+                    <div class="text-upper"> <p class="rev">РЕВОЛЮЦИОННЫЕ ИЗМЕНЕНИЯ</p></div>
+                </div>
+                <div class="s">
+                    <div class="left1">
+                        <video autoplay loop class="video1" src="videoplayback.mp4"></video> 
+                        <p class="text1">В предыдущих версиях  Conter-Strike регало и так хуево,но мы придумали такую ебанутую хуйню что регать ваще не будет нахуй </p>
+                    </div>
+                </div> 
+                <div class="ss">
+                    <div class="left2">
+                        <p class="text2">Source 2 какая-то вообще пизданутая хуйня,я лично хуй знает как, но если ты играешь без утюга,то ты так заебешься играть с импутлагом, братан я тебе советую купить утюг и паяльник и запаять себе ебальник</p>
+                        <img class="video2" src="n56040 3.png" alt="">
+                    </div>
+                </div>
+                <div class="sss">
+                    <div class="left3">
+                        <video autoplay loop class="video3" src="videoplayback (1).mp4"></video>
+                    <p class="text3">В Source 2 мы типо добавили VAC Live,хз че это,там диман говорил что норм все будет,но мы крч решили нахуй вырубить античит,ну типо что есть что нету,нам если честно ваще похуй</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="block3">
+            <div class="opacity">
+                <div>
+                    <img class="1cs" src="/1cs.png" alt="">
+                    <input type="checkbox">
+                </div>
+                
+                <div>
+                    <img class="1cs" src="/2cs.png" alt="">
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <img class="1cs" src="/3cs.png" alt="">
+                    <input type="checkbox">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> 
+        <!-- HTML модального окна -->
+<div id="openModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">ЗАРЕГАЙСЯ ТВАР</h3>
+          <a href="#close" title="Close" class="close">×</a>
+        </div>
+        <div class="modal-body">    
+            <form action="">
+                <p>Вход на сайт</p>
+                <p>Email Steam: <input type="email" name="login"></p>
+                <p>Пароль: <input type="password" name="pass"></p>
+                <p><input type="submit" value="Вход"></p>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <!-- HTML кнопки -->
+   
+  <a href="#openModal">ЗАРЕГАТЬСЯ ЖИ ЕС</a>
+   
+   
+  <!-- CSS-стили модального окна -->
+  <style>
+  /* Стили всплывающего окна по-умолчанию */
+  .modal {
+      position: fixed; /* фиксированное положение */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0,0,0,0.5); /* фон */
+      z-index: 1050;
+      opacity: 0; /* по умолчанию модальное окно прозрачно */
+      -webkit-transition: opacity 200ms ease-in; 
+      -moz-transition: opacity 200ms ease-in;
+      transition: opacity 200ms ease-in; /* анимация перехода */
+      pointer-events: none; /* элемент невидим для событий мыши */
+      margin: 0;
+      padding: 0;
+  }
+  /* При отображении модального окно */
+  .modal:target {
+      opacity: 1; /* делаем окно видимым */
+     pointer-events: auto; /* элемент видим для событий мыши */
+      overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+  }
+  /* ширина модального окна и его отступы от экрана */
+  .modal-dialog {
+      position: relative;
+      width: auto;
+      margin: 10px;
+  }
+  @media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 500px;
+        margin: 30px auto; /* отображение окна по центру */
+    }
+  }
+  /* Стили для блока с контентом окна */ 
+  .modal-content {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      background-color: #fff;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid rgba(0,0,0,.2);
+      border-radius: .3rem;
+      outline: 0;
+  }
+  @media (min-width: 768px) {
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+  }
+  /* Стили заголовка окна */
+  .modal-header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 15px;
+      border-bottom: 1px solid #eceeef;
+  }
+  .modal-title {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.5;
+      font-size: 1.25rem;
+      font-weight: 500;
+  }
+  /* Стили кнопки "х" ("Закрыть")  */
+  .close {
+      float: right;
+      font-family: sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+      opacity: .5;
+      text-decoration: none;
+  }
+  /* Стили для закрывающей кнопки в фокусе или наведении */
+  .close:focus, .close:hover {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+      opacity: .75;
+  }
+  /* Стили блока основного содержимого окна */
+  .modal-body {
+    position: relative;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+      padding: 15px;
+      overflow: auto;
+  }
+  </style>
+     <p class="footertx">Counter-Strike, Counter-Strike 2, CS:GO и соответствующие логотипы являются товарными знаками и/или зарегистрированными товарными знаками Valve Corporation. <br>  © 2023 Valve Corporation, все права сохранены.</p>
+    </footer>
+    
+</body>
+</html>

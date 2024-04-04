@@ -1,0 +1,263 @@
+@font-face{
+    src:url(/Inter-VariableFont_slnt\,wght.ttf) ;
+    font-family: "vanya";
+}
+@font-face{
+    src:url(/IstokWeb-Regular.ttf) ;
+    font-family: "xz";
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 112vh;
+    background-image: url(/ala.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content {
+    display: flex;
+    width: 100%;
+    height: 12vh;
+}
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.png {
+    width: 150px;
+    height: 60px;
+    display: flex;
+}
+.steam{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.lala {
+    width: 210px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3281AC;
+    border-radius: 2px;
+    gap: 10px;
+}
+.text-steam{
+    font-size: 15.61px;
+    font-family: vanya;
+    font-weight: 500;
+    color: white;
+}
+.logo-social{
+    width: 30%;
+    height: 10.5vh;
+    display: flex;
+    align-items:center;
+}
+.block-1{
+    background-image: url(/Group.png);
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+}
+.newera{
+    width: 95vh; 
+    height: 33vh;
+    opacity: 0.7;
+    background-color: #272A3B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)    
+}
+.pervi{
+    color: white;
+    font-family: "xz";
+    font-size: 17.03px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 7.5vh;
+}
+.vtoroi{
+    color: white;
+    font-family: "xz";
+    font-size: 17.03px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.tri{
+    color: white;
+    font-family: "xz";
+    font-size: 17.03px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.block2{
+    width: 100%;
+    height: 161vh;
+    display: flex;
+    background-image:url(/fon2.png);
+    background-repeat:no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+.koko {
+    width: 102.1vh;
+    height: 127.1vh;
+    background-image:url(/Rectangle\ 2.png);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-upper{
+    width: 100%;
+    height: 10vh;
+    text-align: center; 
+}
+
+.rev{
+    color: black;
+    font-size: 40px;
+    font-family: "xz";
+    font-weight: 400; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    margin-top: 3vh;
+}
+.s{
+    width: 100%;
+    height: 27vh;
+    margin-top: 3vh;
+}
+.video1{
+    width: 42vh;
+    height: 24.5vh;
+    margin-left: 4.5vh;
+}
+.left1{
+    width: 100%;
+    height: 27vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.text1{
+    color: white;
+    font-size: 15px;
+    font-family: "xz";
+    font-weight: 400;
+    line-height: 1.4vh; 
+    word-wrap: break-word;
+    margin-left: 2vh;
+}
+.ss{
+    width: 100%;
+    height: 27vh;
+    margin-top: 3vh;
+}
+.left2{
+    width: 100%;
+    height: 27vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.text2{
+    text-align: center;
+    margin-left: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: "xz";
+    font-weight: 400;
+    line-height: 14px;
+    word-wrap: break-word
+}
+.video2{
+    width: 42vh;
+    height: 24.5vh;
+    margin-right: 5vh;
+}
+.video3{
+    width: 42vh;
+    height: 24.5vh;
+    margin-left: 4.5vh;
+}
+.sss{
+    width: 100%;
+    height: 27vh;
+    margin-top: 3vh;
+}
+.text3{
+    text-align: center;
+    margin-left: 2vh;
+    color: white;
+    font-size: 16px;
+    font-family: "xz";
+    font-weight: 400;
+    line-height: 14px;
+    word-wrap: break-word
+}
+.left3{
+    width: 100%;
+    height: 27vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.block3{
+    background-image: url(/Clip\ path\ group.png);
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-repeat:no-repeat;
+} 
+.opacity{
+    width: 102vh;
+    height: 52vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-repeat:no-repeat;
+    gap: 21.8vh;
+    background-image:url(/bg.png)
+} 
+.up-tx{
+    justify-content: flex-start;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.footertx{
+    text-align: center;
+    color: white;
+    margin-top: 2vh;
+    font-size: 12px;
+    font-family: "xz";
+    font-weight: 400;
+    word-wrap: break-word
+}
+p{
+    font-family: "xz";
+}
+.login{
+    background-color:#E48717;
+    
+}
